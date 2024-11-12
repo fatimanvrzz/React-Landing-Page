@@ -1,6 +1,10 @@
 import { MdDone } from "react-icons/md";
 
 
+// salamsmmsfamfsmfas
+// sfasfsadfasfsa
+
+
 const AboutUs = () => {
     return (
         <div className="flex flex-row p-10 w-screen h-auto gap-24 justify-center items-center" id="aboutUs">
