@@ -1,6 +1,10 @@
 import backgroundImageUrl from '../assets/intro-bg.jpg';
 import AboutUs from '../components/AboutUs';
+import ClientComment from '../components/ClientComment';
 import Features from "../components/Features";
+import Gallery from '../components/Gallery';
+import GetInTouch from '../components/Get In Touch';
+import MeetTheTeam from '../components/MeetTheTeam';
 import Navbar from '../components/Navbar';
 import OurService from '../components/OurService';
 
@@ -8,7 +12,7 @@ import OurService from '../components/OurService';
 const IndexPage: React.FC = () => {
 
     return (
-        <div className="w-screen overflow-x-hidden">
+        <div className="w-screen">
 
             <Navbar />
 
@@ -26,21 +30,24 @@ const IndexPage: React.FC = () => {
 
                     <button
                         type="button"
-                        className="w-32 h-12 mt-10 flex justify-center items-center uppercase
+                        className="w-40 h-12 mt-10 flex justify-center items-center uppercase
                         text-white bg-gradient-to-br from-blue-500 to-indigo-500 
                         hover:bg-gradient-to-br hover:from-blue-600 hover:to-indigo-400
                         font-medium rounded-full text-sm p-3.5 me-2 mb-2 
-                        focus:outline-none focus:ring-4 focus:ring-blue-300 
-                        transition-all duration-1000 ease-in-out">
+                        transition-shadow duration-1000 ease-in">
                         Learn More
                     </button>
                 </div>
             </div>
-                
+
             <Features />
             <AboutUs />
             <OurService />
-            
+            <Gallery />
+            <ClientComment />
+            <MeetTheTeam />
+            <GetInTouch/>
+
         </div>
     );
 

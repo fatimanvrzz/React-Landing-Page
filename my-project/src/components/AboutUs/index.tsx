@@ -27,12 +27,8 @@ const AboutUs = () => {
                             <li className="flex items-center gap-2 text-sm text-gray-500"><MdDone className="text-blue-500 "/>Lorem, ipsum dolor</li>
                             <li className="flex items-center gap-2 text-sm text-gray-500"><MdDone className="text-blue-500 "/>Lorem, ipsum dolor</li>
                         </ul>
-                        
                     </div>
                 </div>
-
-
-
             </div>
 
         </div>
